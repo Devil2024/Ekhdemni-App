@@ -1,0 +1,315 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thank_you
+  examples: |
+    - Thanks for your help!
+    - Thank you so much!
+    - I appreciate your assistance.
+    - Thanks a lot!
+    - Thank you for your support.
+    - I'm grateful for your help.
+    - Thanks!
+    - Thank you.
+    - Much appreciated!
+    - Thanks for everything.
+    - Thank you very much.
+
+- intent: engine_misfiring
+  examples: |
+    - My car hesitates or jerks during acceleration. Could it be an [engine misfire](symptom)?
+    - When idling, my [engine](component) feels rough or shaky. Is it a sign of misfiring?
+    - The check engine light is flashing. Could it indicate an [engine misfire](symptom)?
+    - My car emits rough or irregular engine sounds. Could it be related to [engine misfiring](symptom)?
+    - I notice a decrease in engine power and performance. Is it due to [engine misfiring](symptom)?
+    - There's a noticeable increase in fuel consumption. Could it be linked to [engine misfiring](symptom)?
+    - When driving at high speeds, the vehicle lacks acceleration. Could it be caused by [engine misfiring](symptom)?
+    - I feel intermittent vibrations or shuddering from the engine. Is it a symptom of misfiring?
+
+- intent: engine_overheating
+  examples: |
+    - My [temperature gauge](component) is indicating high levels. Is my [engine](component) overheating?
+    - I noticed [smoke](symptom) coming from the [hood](component) of my car. Could it be a sign of [engine overheating](symptom)?
+    - What are the common symptoms of an [overheating engine](symptom)? My car feels unusually hot.
+    - How can I tell if my [engine](component) is overheating? The dashboard shows an unusual temperature reading.
+    - What potential damage can occur due to [engine overheating](symptom)?
+    - Are there any preventive measures to avoid [engine overheating](symptom) in hot weather?
+
+- intent: engine_knocking
+  examples: |
+    - I hear a knocking sound coming from the [engine](component). What could it be?
+    - When I start my car, I notice a knocking noise. Is it serious?
+    - My [engine](component) is making a knocking sound when I accelerate. What's wrong?
+    - What are the potential causes of [engine knocking](symptom)?
+    - I feel vibrations and hear knocking from the [engine](component). Should I be concerned?
+    - Is [engine knocking](symptom) a sign of serious damage?
+
+- intent: battery_issues
+  examples: |
+    - My car won't start, could it be a [dead battery](symptom)?
+    - What are the signs of a failing [car battery](component)?
+    - How do I know if my [battery](component) needs replacement?
+    - My headlights are dim, is it a [battery problem](symptom)?
+    - What should I do if my car's [battery](component) keeps dying?
+    - Are there any tips for extending the life of my [car battery](component)?
+    - I left my lights on overnight, will it drain the [car battery](component)?
+    - Can extreme temperatures affect the performance of my [car battery](component)?
+    - How often should I replace my [car battery](component)?
+    - My dashboard warning light for the [battery](component) is on, what should I do?
+    - I hear a clicking sound when I try to start my car, is it a [battery issue](symptom)?
+    - Does jump-starting a car damage the [battery](component)?
+    - What are the steps to jump-start a vehicle with a [dead battery](symptom)?
+    - How can I test the voltage of my [car battery](component) at home?
+    - Can a faulty alternator cause [battery problems](symptom)?
+    - How long does it take to recharge a [car battery](component) after a jump-start?
+
+- intent: transmission_shifting_issues
+  examples: |
+    - My car is having difficulty shifting gears smoothly. Could it be a [transmission problem](symptom)?
+    - When I accelerate, there's a delay before the car shifts gears. Is it a sign of [transmission shifting issues](symptom)?
+    - I feel a grinding sensation when shifting gears. Is my [transmission](component) failing?
+    - What are the signs of [transmission slipping](symptom) or difficulty in shifting gears?
+    - How do I know if my car's [transmission](component) is experiencing issues with shifting gears?
+    - My car hesitates or jerks when changing gears. Could it indicate [transmission shifting problems](symptom)?
+    - Can a low [transmission fluid](component) level cause problems with shifting gears?
+    - I hear unusual noises when shifting gears. Could it be a problem with the [transmission](component)?
+    - My car doesn't respond promptly when I shift gears. Is it due to [transmission shifting issues](symptom)?
+    - Are there any DIY methods to diagnose and fix [transmission shifting problems](symptom)?
+    - What should I do if I suspect my car's [transmission](component) is not shifting properly?
+    - Is it safe to drive with [transmission shifting issues](symptom), or should I seek immediate repairs?
+    - Can [transmission shifting issues](symptom) lead to more serious mechanical problems if left unaddressed?
+
+- intent: suspension_noise
+  examples: |
+    - I hear a squeaking sound whenever I go over bumps. Could it be a [suspension issue](symptom)?
+    - There's a rattling noise coming from the [front end](component) of my car. Is it related to the suspension?
+    - My car makes a clunking noise when I drive over potholes. Could it indicate a problem with the [suspension](component)?
+    - What are the common signs of [suspension problems](symptom)? I hear strange noises while driving.
+    - How do I know if my [car suspension](component) needs maintenance? It's making unusual sounds.
+    - When I turn sharply, I hear a creaking noise from the [rear](component) of the vehicle. Is it a suspension issue?
+    - Is it normal to hear clicking sounds from the [suspension](component) when going over speed bumps?
+    - Can worn-out shock absorbers cause [suspension noise](symptom)?
+    - How can I diagnose the source of [suspension noises](symptom) in my car?
+    - I notice a grinding noise when I hit a bump. Could it be related to the [suspension system](component)?
+
+- intent: power_steering_fluid_leaks
+  examples: |
+    - I noticed a puddle of [fluid](symptom) under my car, could it be a [power steering fluid leak](component)?
+    - My [power steering](component) seems to be acting up, could it be due to a [fluid leak](symptom)?
+    - There's a strange noise when I turn the [steering wheel](component), could it be related to a [power steering fluid leak](component)?
+    - How do I check for [power steering fluid leaks](component) in my [vehicle](component)?
+    - What are the signs of [power steering fluid leakage](symptom)?
+    - I see a low [power steering fluid](component) warning on my [dashboard](component), what should I do?
+    - My [steering wheel](component) feels stiff and I smell something burning, could it be a [power steering fluid leak](component)?
+    - Are there any DIY methods to fix a [power steering fluid leak](component)?
+    - Can a [power steering fluid leak](component) cause damage to other [components](component)?
+    - How urgent is it to repair a [power steering fluid leak](component)?
+- intent: brake_noise
+  examples: |
+    - My [brake pads](component) are making a [squealing noise](symptom) when I apply them. What could be the issue?
+    - I hear a [grinding sound](symptom) when I press the [brake pedal](component). Is it safe to drive?
+    - There's a [screeching noise](symptom) coming from my [brakes](component). What should I do?
+    - Why are my [brakes](component) making a [scraping noise](symptom)?
+    - I noticed a [clicking noise](symptom) whenever I [brake](component). What does it mean?
+    - My [brakes](component) are making a [high-pitched noise](symptom). Should I be concerned?
+    - What causes [brakes](component) to make a [squeaky noise](symptom)?
+    - How can I fix the [squealing noise](symptom) coming from my [brakes](component)?
+
+- intent: soft_spongy_brake_pedal
+  examples: |
+    - Why does my brake pedal feel soft when I press it? [Symptoms: soft brake pedal]
+    - What causes a spongy brake pedal in my car? [Symptoms: spongy brake pedal]
+    - My brakes don't feel as responsive, could it be a pedal issue? [Symptoms: unresponsive brakes]
+    - How do I restore firmness to my brake pedal? [Symptoms: soft brake pedal]
+    - Should I be concerned about a soft brake pedal? [Symptoms: safety concerns]
+    - My brake pedal feels mushy when I apply pressure. [Symptoms: mushy brake pedal]
+    - Can air in the brake lines cause a soft brake pedal? [Symptoms: air in brake lines]
+    - Is there a way to diagnose a soft brake pedal at home? [Symptoms: diagnosing brake issues]
+    - What are the common reasons for a brake pedal to feel soft? [Symptoms: common causes]
+
+- intent: transmission_warning_lights
+  examples: |
+    - Why is the transmission warning light illuminated on my dashboard? [Symptoms: transmission warning light]
+    - What does it mean when the transmission warning light comes on? [Symptoms: transmission warning light]
+    - My car is showing a transmission warning, what should I do? [Symptoms: transmission warning light]
+    - How do I troubleshoot a transmission warning light? [Symptoms: transmission warning light]
+    - Can driving with a transmission warning light cause further damage? [Symptoms: safety concerns]
+
+- intent: traction_control_issues
+  examples: |
+    - Why is my traction control malfunctioning? [Symptoms: traction control malfunction]
+    - What causes loss of traction control functionality? [Symptoms: traction control malfunction]
+    - I'm experiencing traction control issues, how do I fix them? [Symptoms: traction control malfunction]
+    - Is it safe to drive with traction control problems? [Symptoms: safety concerns]
+    - How can I diagnose and resolve traction control issues in my car? [Symptoms: traction control malfunction]
+    - My traction control light is flashing, what does it indicate? [Symptoms: flashing traction control light]
+    - Can a faulty wheel speed sensor cause traction control issues? [Symptoms: wheel speed sensor malfunction]
+    - How do I reset the traction control system after fixing an issue? [Symptoms: resetting traction control]
+    - Are there any common reasons why the traction control system would fail? [Symptoms: common causes]
+
+- intent: flat_tire
+  examples: |
+    - What should I do if I have a flat tire? [Symptoms: flat tire]
+    - My tire is completely flat, how do I handle it? [Symptoms: flat tire]
+    - How can I safely change a flat tire? [Symptoms: flat tire]
+    - Is it safe to drive on a flat tire for a short distance? [Symptoms: safety concerns]
+    - I heard a loud pop, and now my car is pulling to one side. Could it be a flat tire? [Symptoms: loud pop, car pulling to one side]
+    - Can I repair a flat tire myself, or should I call for assistance? [Symptoms: flat tire repair options]
+    - What are the steps for using a tire repair kit to fix a flat tire? [Symptoms: using tire repair kit]
+    - Should I carry a spare tire with me in case of a flat? [Symptoms: flat tire preparedness]
+
+- intent: battery_draining_quickly
+  examples: |
+    - Why is my car battery draining quickly? [Symptoms: quick battery drainage]
+    - What are the common reasons for rapid battery drain in vehicles? [Symptoms: battery drain causes]
+    - My car struggles to start, could it be due to a drained battery? [Symptoms: difficulty starting]
+    - Can leaving lights on overnight cause my battery to drain fast? [Symptoms: leaving lights on]
+    - How do I troubleshoot excessive battery drainage in my car? [Symptoms: troubleshooting battery drain]
+
+- intent: air_filter_replacement
+  examples: |
+    - How often should I replace my air filter? [Symptoms: air filter maintenance]
+    - What are the signs that indicate I need to change my air filter? [Symptoms: dirty air filter]
+    - My engine seems sluggish lately. Could it be due to a clogged air filter? [Symptoms: engine performance issues]
+    - How do I know if my car's air filter is dirty or clogged? [Symptoms: checking air filter condition]
+    - Can a dirty air filter affect fuel efficiency? [Symptoms: decreased fuel efficiency]
+
+- intent: low_engine_oil_warning
+  examples: |
+    - Why did my car show a low engine oil warning? [Symptoms: low engine oil warning]
+    - What are the consequences of driving with low engine oil? [Symptoms: consequences of low oil]
+    - How do I check the engine oil level in my car? [Symptoms: checking oil level]
+    - My car's oil light came on suddenly. What should I do? [Symptoms: sudden oil warning]
+    - Is it safe to continue driving when the low engine oil warning light is on? [Symptoms: safety concerns]
+
+- intent: burning_smell
+  examples: |
+    - Why is there a burning smell coming from my car? [Symptoms: burning smell]
+    - My car emits a burning odor. What could be the cause? [Symptoms: cause of burning smell]
+    - How do I identify the source of a burning smell in my vehicle? [Symptoms: identifying burning smell]
+    - Is it safe to continue driving if I notice a burning smell? [Symptoms: safety concerns]
+    - What are the potential consequences of ignoring a burning smell in my car? [Symptoms: consequences of burning smell]
+
+- intent: air_conditioning_issues
+  examples: |
+    - Why is my car's air conditioning not cooling properly? [Symptoms: AC not cooling]
+    - My car's AC blows warm air. What could be causing this? [Symptoms: warm air from AC]
+    - How do I troubleshoot air conditioning problems in my vehicle? [Symptoms: troubleshooting AC issues]
+    - Is it normal for the AC to emit a foul odor? [Symptoms: foul odor from AC]
+    - What are the common reasons for AC compressor failure? [Symptoms: AC compressor issues]
+
+- intent: car_making_noise
+  examples: |
+    - Why is my car making a rattling noise? [Symptoms: rattling noise]
+    - My car emits a squealing sound when I brake. What could be the issue? [Symptoms: squealing when braking]
+    - How do I identify the cause of a grinding noise from my car? [Symptoms: grinding noise]
+    - What does it mean if my car makes a clicking noise when I turn? [Symptoms: clicking noise when turning]
+    - Is it safe to drive if my car is making unusual noises? [Symptoms: safety concerns]
+
+- intent: car_not_starting
+  examples: |
+    - Why won't my car start when I turn the key? [Symptoms: car not starting]
+    - My car's engine cranks but won't start. What should I do? [Symptoms: engine cranks but doesn't start]
+    - How do I troubleshoot a no-start condition in my vehicle? [Symptoms: troubleshooting no-start]
+    - Is a dead battery the only reason why a car won't start? [Symptoms: other reasons for no-start]
+    - Can a faulty ignition switch prevent my car from starting? [Symptoms: ignition switch issues]
+
+- intent: Electrical_Problems_Speakers
+  examples: |
+    - The speakers in my car suddenly stopped working. [Symptoms: speakers stopped working]
+    - There's no sound coming from any of the speakers. [Symptoms: no sound from speakers]
+    - I hear a crackling noise from the speakers when I turn up the volume. [Symptoms: crackling noise from speakers]
+    - My car speakers are producing distorted sound. [Symptoms: distorted sound from speakers]
+    - There's a buzzing sound coming from one of the speakers. [Symptoms: buzzing sound from speakers]
+    - The speakers emit a static noise even when the audio is muted. [Symptoms: static noise from speakers]
+    - The rear speakers in my car are not working. [Symptoms: rear speakers not working]
+

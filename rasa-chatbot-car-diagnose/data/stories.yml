@@ -1,0 +1,183 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: User expresses gratitude
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: asking for engine misfiring
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: engine_misfiring
+  - action: utter_engine_misfiring  
+
+- story: asking for engine_overheating
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: engine_overheating
+  - action: utter_engine_overheating 
+
+- story: asking for engine_knocking
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: engine_knocking
+  - action: utter_engine_knocking
+
+- story: asking for battery_issues
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: battery_issues
+  - action: utter_battery_issues
+
+- story: asking for transmission_shifting_issues
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: transmission_shifting_issues
+  - action: utter_transmission_shifting_issues
+
+- story: asking for suspension_noise
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: suspension_noise
+  - action: utter_suspension_noise
+
+- story: asking for power_steering_fluid_leaks
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: power_steering_fluid_leaks
+  - action: utter_power_steering_fluid_leaks
+
+- story: asking for brake_noise
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: brake_noise
+  - action: utter_brake_noise
+
+- story: asking for soft_spongy_brake_pedal
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: soft_spongy_brake_pedal
+  - action: utter_soft_spongy_brake_pedal
+
+- story: asking for transmission_warning_lights
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: transmission_warning_lights
+  - action: utter_transmission_warning_lights
+
+- story: asking for traction_control_issues
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: traction_control_issues
+  - action: utter_traction_control_issues
+
+- story: asking for flat_tire
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: flat_tire
+  - action: utter_flat_tire
+
+- story: asking for battery_draining_quickly
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: battery_draining_quickly
+  - action: utter_battery_draining_quickly
+
+- story: asking for air_filter_replacement
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: air_filter_replacement
+  - action: utter_air_filter_replacement
+
+- story: asking for low_engine_oil_warning
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: low_engine_oil_warning
+  - action: utter_low_engine_oil_warning
+
+- story: asking for burning_smell
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: burning_smell
+  - action: utter_burning_smell
+
+- story: asking for air_conditioning_issues
+  steps:
+  - intent: greet 
+  - action: utter_greet  
+  - intent: air_conditioning_issues
+  - action: utter_air_conditioning_issues
+
+- story: asking for car_making_noise 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: car_making_noise
+  - action: utter_car_making_noise
+
+- story: asking for car_not_starting 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: car_not_starting
+  - action: utter_car_not_starting
+
+- story: asking for Electrical_Problems_Speakers 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Electrical_Problems_Speakers 
+  - action: utter_Electrical_Problems_Speakers 
+
+
+
+
+
+
+ 
+

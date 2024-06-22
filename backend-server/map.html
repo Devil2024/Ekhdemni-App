@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_204a7e0e1889db4c89c4670795bd8dd0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_204a7e0e1889db4c89c4670795bd8dd0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_204a7e0e1889db4c89c4670795bd8dd0 = L.map(
+                "map_204a7e0e1889db4c89c4670795bd8dd0",
+                {
+                    center: [30.0385219, 31.2595176],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_811a209fea7507fd15f3db96d27c7c48 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_811a209fea7507fd15f3db96d27c7c48.addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+            var marker_4265644c0f45bea05a35933c09262684 = L.marker(
+                [30.0385219, 31.2595176],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+            var icon_506606aa02d373c886c09e5f3aa0305b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4265644c0f45bea05a35933c09262684.setIcon(icon_506606aa02d373c886c09e5f3aa0305b);
+        
+    
+        var popup_bf6920a9307477399fd6823810673fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f73cbe0104ef3a6c8c60264774ee2b5f = $(`<div id="html_f73cbe0104ef3a6c8c60264774ee2b5f" style="width: 100.0%; height: 100.0%;">User Location</div>`)[0];
+                popup_bf6920a9307477399fd6823810673fd5.setContent(html_f73cbe0104ef3a6c8c60264774ee2b5f);
+            
+        
+
+        marker_4265644c0f45bea05a35933c09262684.bindPopup(popup_bf6920a9307477399fd6823810673fd5)
+        ;
+
+        
+    
+    
+            var marker_7f965bc343b1849615e6190c14c628aa = L.marker(
+                [30.0439246, 31.2407947],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_8dc39752709a0527802619be578fa6bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da409aac0e5c0489989a687c0661d510 = $(`<div id="html_da409aac0e5c0489989a687c0661d510" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0439246,31.2407947' target='_blank'>Nabeel</a><br>Ad Dawawin, Abdeen<br>cairo<br>Distance: 1.90 km<br>Type of repair: Auto Repair<br>Rating: 3.50</div>`)[0];
+                popup_8dc39752709a0527802619be578fa6bc.setContent(html_da409aac0e5c0489989a687c0661d510);
+            
+        
+
+        marker_7f965bc343b1849615e6190c14c628aa.bindPopup(popup_8dc39752709a0527802619be578fa6bc)
+        ;
+
+        
+    
+    
+            var marker_daa7bfc7ec9c92a9d1fe3e6184f35a54 = L.marker(
+                [30.0338229, 31.240319],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_32426971ac209e34a1d79c53cda7373d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c65cfb4d3c0da09f63ab0a07175ee6 = $(`<div id="html_45c65cfb4d3c0da09f63ab0a07175ee6" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0338229,31.240319' target='_blank'>Spare Car</a><br>8 Garidet Al Syasah, El Sayeda Zeinab<br>cairo<br>Distance: 1.92 km<br>Type of repair: Auto Repair<br>Rating: 3.50</div>`)[0];
+                popup_32426971ac209e34a1d79c53cda7373d.setContent(html_45c65cfb4d3c0da09f63ab0a07175ee6);
+            
+        
+
+        marker_daa7bfc7ec9c92a9d1fe3e6184f35a54.bindPopup(popup_32426971ac209e34a1d79c53cda7373d)
+        ;
+
+        
+    
+    
+            var marker_075fcbf9eec862b5a694d908f091f5b8 = L.marker(
+                [30.0320113, 31.2470276],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_d5d3b3ff527057867bbeea6fdd91dc18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aec2d0c3a3f159c7feeaa5d2179cf6d8 = $(`<div id="html_aec2d0c3a3f159c7feeaa5d2179cf6d8" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0320113,31.2470276' target='_blank'>El Tawfiq Trade & Import</a><br>18 Qadri St., El-Sayeda Zainab<br>cairo<br>Distance: 1.40 km<br>Type of repair: Trade and Import Services<br>Rating: 3.50</div>`)[0];
+                popup_d5d3b3ff527057867bbeea6fdd91dc18.setContent(html_aec2d0c3a3f159c7feeaa5d2179cf6d8);
+            
+        
+
+        marker_075fcbf9eec862b5a694d908f091f5b8.bindPopup(popup_d5d3b3ff527057867bbeea6fdd91dc18)
+        ;
+
+        
+    
+    
+            var marker_f366bc0e3a6093aa2e2c67ed4471dbe7 = L.marker(
+                [30.0549446, 31.2482275],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_fac6be5871d2a3c32ab43442b5138f7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3addef1c3d2411527bcaf072f16d5a8a = $(`<div id="html_3addef1c3d2411527bcaf072f16d5a8a" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0549446,31.2482275' target='_blank'>Farouk Al-Asyouti</a><br>11 Shalaby St., Naguib El Rihani St., behind 45 Naguib El Rihani, Al Azbakeya<br>cairo<br>Distance: 2.13 km<br>Type of repair: Auto Repair and Maintenance<br>Rating: 3.50</div>`)[0];
+                popup_fac6be5871d2a3c32ab43442b5138f7a.setContent(html_3addef1c3d2411527bcaf072f16d5a8a);
+            
+        
+
+        marker_f366bc0e3a6093aa2e2c67ed4471dbe7.bindPopup(popup_fac6be5871d2a3c32ab43442b5138f7a)
+        ;
+
+        
+    
+    
+            var marker_f16f11a39e719b45bbcb1fd307afd8e0 = L.marker(
+                [30.0385219, 31.2595176],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_a740ee98f437ebb61017deeeefe777fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8557b716cd3b6dad9652cb263c85158a = $(`<div id="html_8557b716cd3b6dad9652cb263c85158a" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0385219,31.2595176' target='_blank'>Spare Parts Center</a><br>43 Ahmed Maher<br>cairo<br>Distance: 0.00 km<br>Type of repair: Auto Parts<br>Rating: 3.50</div>`)[0];
+                popup_a740ee98f437ebb61017deeeefe777fc.setContent(html_8557b716cd3b6dad9652cb263c85158a);
+            
+        
+
+        marker_f16f11a39e719b45bbcb1fd307afd8e0.bindPopup(popup_a740ee98f437ebb61017deeeefe777fc)
+        ;
+
+        
+    
+    
+            var marker_1517a622d771ed4b4516d8376daf2680 = L.marker(
+                [30.0320113, 31.2470276],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_373dd310bd6458b86c1e079aae9ee45f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f458602218cb818596169dc9ca27d46b = $(`<div id="html_f458602218cb818596169dc9ca27d46b" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0320113,31.2470276' target='_blank'>El Tawfiq Trade & Import</a><br>18 kadry , El-Sayeda Zainab<br>Giza<br>Distance: 1.40 km<br>Type of repair: Car Parts Store<br>Rating: 3.50</div>`)[0];
+                popup_373dd310bd6458b86c1e079aae9ee45f.setContent(html_f458602218cb818596169dc9ca27d46b);
+            
+        
+
+        marker_1517a622d771ed4b4516d8376daf2680.bindPopup(popup_373dd310bd6458b86c1e079aae9ee45f)
+        ;
+
+        
+    
+    
+            var marker_ad8adc25ad8bafca696a7149c0b5dd80 = L.marker(
+                [30.0439246, 31.2407947],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_467e2993433abc74e1afc68b31f8da85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76091bb78eeef76c6416a2513c83a3aa = $(`<div id="html_76091bb78eeef76c6416a2513c83a3aa" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0439246,31.2407947' target='_blank'>Nabeel</a><br>26VR+H87, Ad Dawawin, Abdeen<br>Giza<br>Distance: 1.90 km<br>Type of repair: Car Parts Store<br>Rating: 3.50</div>`)[0];
+                popup_467e2993433abc74e1afc68b31f8da85.setContent(html_76091bb78eeef76c6416a2513c83a3aa);
+            
+        
+
+        marker_ad8adc25ad8bafca696a7149c0b5dd80.bindPopup(popup_467e2993433abc74e1afc68b31f8da85)
+        ;
+
+        
+    
+    
+            var marker_8e47adc4d11ff3d5d3c36a6b8e1b8894 = L.marker(
+                [30.0385219, 31.2595176],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_e5dd38ca1dc12184808b99c86e5a95f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88960002a82de5a9c2cc122abdf7d166 = $(`<div id="html_88960002a82de5a9c2cc122abdf7d166" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0385219,31.2595176' target='_blank'>center spare parts of cars</a><br>43 Ahmed Maher<br>Giza<br>Distance: 0.00 km<br>Type of repair: Car Spare Parts<br>Rating: 3.50</div>`)[0];
+                popup_e5dd38ca1dc12184808b99c86e5a95f3.setContent(html_88960002a82de5a9c2cc122abdf7d166);
+            
+        
+
+        marker_8e47adc4d11ff3d5d3c36a6b8e1b8894.bindPopup(popup_e5dd38ca1dc12184808b99c86e5a95f3)
+        ;
+
+        
+    
+    
+            var marker_fe7ee79a752cc6236603f3c745f677cf = L.marker(
+                [30.0338229, 31.240319],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_e7857963e1c47d84072d38dd98b603fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2135c11ff54a3188d78f98e6dd5c1ca9 = $(`<div id="html_2135c11ff54a3188d78f98e6dd5c1ca9" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.0338229,31.240319' target='_blank'>Spare Car</a><br>8 Garidet Al Syasah, El Sayeda Zeinab<br>Giza<br>Distance: 1.92 km<br>Type of repair: Car Spare Parts Shop<br>Rating: 3.50</div>`)[0];
+                popup_e7857963e1c47d84072d38dd98b603fd.setContent(html_2135c11ff54a3188d78f98e6dd5c1ca9);
+            
+        
+
+        marker_fe7ee79a752cc6236603f3c745f677cf.bindPopup(popup_e7857963e1c47d84072d38dd98b603fd)
+        ;
+
+        
+    
+    
+            var marker_6faeda1d6ad92cbc0c76e2aa9e3714b4 = L.marker(
+                [30.057067, 31.252161],
+                {}
+            ).addTo(map_204a7e0e1889db4c89c4670795bd8dd0);
+        
+    
+        var popup_6100aba5e9194175d26a03b664da4877 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a4c1750a346f8d87352f7203d296eb = $(`<div id="html_a0a4c1750a346f8d87352f7203d296eb" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&origin=30.0385219,31.2595176&destination=30.057067,31.252161' target='_blank'>Khattab Furnishings</a><br>3742+RVF, El-Malah Path, Bab El-Bahr, Bab El Sharia<br>cairo<br>Distance: 2.18 km<br>Type of repair: Spare Parts Retail<br>Rating: 3.50</div>`)[0];
+                popup_6100aba5e9194175d26a03b664da4877.setContent(html_a0a4c1750a346f8d87352f7203d296eb);
+            
+        
+
+        marker_6faeda1d6ad92cbc0c76e2aa9e3714b4.bindPopup(popup_6100aba5e9194175d26a03b664da4877)
+        ;
+
+        
+    
+</script>
+</html>

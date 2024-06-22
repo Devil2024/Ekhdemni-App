@@ -1,0 +1,437 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - engine_misfiring
+  - engine_overheating
+  - engine_knocking
+  - battery_issues
+  - transmission_shifting_issues
+  - suspension_noise
+  - power_steering_fluid_leaks
+  - brake_noise
+  - soft_spongy_brake_pedal
+  - transmission_warning_lights
+  - traction_control_issues
+  - flat_tire
+  - battery_draining_quickly
+  - air_filter_replacement
+  - low_engine_oil_warning
+  - burning_smell
+  - air_conditioning_issues
+  - car_making_noise
+  - car_not_starting
+  - Electrical_Problems_Speakers
+  - thank_you
+
+entities:
+  - symptom
+  - component 
+
+responses:
+  utter_greet:
+  - text: "Hey! How can i assist you to day?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot."
+ 
+  utter_thank_you:
+  - text: "You're welcome! I'm glad I could help. If you have any more questions or need further assistance, feel free to ask."
+ 
+  utter_engine_misfiring:
+  - text: |
+      "Engine misfiring can occur due to several reasons:
+      - Worn-out spark plugs
+      - Faulty ignition coils
+      - Clogged fuel injectors
+      - Vacuum leaks
+
+      To address engine misfiring, follow these steps:
+      1. Check the spark plugs for wear or deposits.
+      2. Inspect the ignition coils for damage.
+      3. Examine the fuel injectors for clogs or leaks.
+
+      If you're unsure, seek assistance from a mechanic for a thorough diagnosis and repairs.
+      Prompt action is crucial to prevent further damage to your engine.
+
+      If you're not comfortable performing these checks yourself, it's advisable to seek assistance from a qualified mechanic. They can conduct a comprehensive diagnosis using specialized tools and recommend the necessary repairs.
+
+      Remember, addressing engine misfiring promptly is crucial to prevent further damage to your vehicle's engine and ensure optimal performance. Don't hesitate to ask for help or clarification if needed. We're here to assist you every step of the way!"
+  
+  utter_engine_overheating:
+  - text: |
+        An overheating engine requires immediate attention and can be caused by:
+        - Low coolant levels
+        - Faulty thermostat
+        - Malfunctioning cooling fan
+        - Clogged radiator
+
+        If you notice your engine temperature gauge in the red zone or observe steam or smoke coming from the engine compartment, pull over to a safe location immediately. Turn off the engine and allow it to cool down before attempting any further checks.
+
+        Once the engine has cooled down, follow these steps:
+        1. Check the coolant level in the reservoir.
+        2. Inspect the radiator and hoses for leaks or damage.
+
+        If you're unsure about how to proceed or need assistance, don't hesitate to contact a professional mechanic. They can diagnose the root cause of the overheating and perform the necessary repairs to ensure your vehicle's safety and reliability.
+
+        Remember, regular maintenance and prompt action are essential to prevent engine overheating and costly repairs. Feel free to reach out if you have any questions or concerns. We're here to help you keep your vehicle running smoothly!
+ 
+  utter_engine_knocking:
+  - text: |
+      Engine knocking can be caused by various factors:
+      - Low-quality fuel
+      - Carbon buildup in the combustion chamber
+      - Worn-out engine components
+      - Incorrect ignition timing
+
+      To address engine knocking, consider the following steps:
+      1. Use high-quality fuel and additives to clean the engine.
+      2. Check for carbon deposits and clean the combustion chamber if necessary.
+      3. Inspect engine components such as pistons, bearings, and connecting rods for wear and tear.
+      4. Ensure that the ignition timing is correctly set.
+
+      Driving with engine knocking can lead to further damage, so it's advisable to pull over and assess the situation.
+
+      If you're unsure about fixing engine knocking yourself, consult a qualified mechanic for a thorough diagnosis and repair.
+
+      Remember, addressing engine knocking promptly can prevent serious engine damage and ensure smooth vehicle operation. Don't hesitate to seek professional help if needed.
+
+  utter_battery_issues:
+  - text: |
+      Car battery issues can arise due to various reasons, including:
+      - Age-related deterioration
+      - Electrical system malfunctions
+      - Extreme temperatures
+      - Faulty alternator
+
+      To diagnose battery issues, you can:
+      1. Test the battery voltage with a multimeter.
+      2. Check for signs of corrosion on the battery terminals.
+      3. Inspect the alternator for proper charging.
+      4. Look for any damaged or worn-out cables.
+
+      If your car battery dies or shows signs of weakness, consider the following actions:
+      - Jump-start the vehicle if possible.
+      - Replace the battery if it's old or damaged.
+      - Have the alternator and electrical system checked by a professional.
+
+      Regular maintenance and proper care can help prevent battery issues. Ensure that your battery is securely mounted, terminals are clean, and electrical components are functioning correctly.
+
+      If you're uncertain about diagnosing or fixing battery issues, it's best to consult a qualified mechanic. They can provide expert advice and ensure your vehicle's electrical system is in top condition.
+
+  utter_transmission_shifting_issues:
+  - text: |
+      Transmission shifting issues can arise due to various factors, including:
+      - Low transmission fluid levels
+      - Worn-out transmission bands or clutches
+      - Faulty solenoids or valve body
+      - Transmission control module (TCM) issues
+
+      To address transmission shifting issues, follow these steps:
+      1. Check the transmission fluid level and condition.
+      2. Look for signs of leaks under the vehicle.
+      3. Perform a diagnostic scan to check for error codes related to the transmission.
+      4. Inspect the transmission linkage and components for wear or damage.
+
+      Driving with transmission shifting issues can lead to further damage to the transmission and drivetrain components. It's best to have the issue diagnosed and repaired promptly.
+
+      If you suspect transmission shifting issues, consult a qualified mechanic for a thorough diagnosis and repair. They can identify the underlying cause and recommend the appropriate course of action.
+
+      Remember, addressing transmission shifting issues early can prevent costly repairs and ensure safe driving. Don't ignore the issue, and seek professional help if needed.
+
+  utter_suspension_noise:
+  - text: |
+      Suspension noise can be caused by several factors, including:
+      - Worn-out or damaged suspension components such as bushings, ball joints, and struts
+      - Loose or damaged steering and suspension parts
+      - Lack of lubrication in suspension components
+      - Broken or worn-out shock absorbers
+
+      To diagnose suspension noise, follow these steps:
+      1. Perform a visual inspection of suspension components for signs of wear or damage.
+      2. Check for loose or damaged steering and suspension parts.
+      3. Test drive the vehicle to listen for knocking or clunking sounds when driving over bumps.
+      4. Inspect the shock absorbers for leaks or visible damage.
+
+      Driving with suspension noise can lead to reduced ride comfort and compromised vehicle handling. It's important to address the issue promptly to ensure safe driving and prevent further damage to suspension components.
+
+      If you're unsure about the cause of suspension noise or how to fix it, it's best to consult a qualified mechanic. They can perform a comprehensive inspection and recommend the necessary repairs or replacements.
+
+      Remember, suspension noise is a sign of underlying issues that require attention. Don't delay in seeking professional help to maintain the safety and performance of your vehicle.
+  
+  utter_power_steering_fluid_leaks:
+  - text: |
+      Power steering fluid leaks can occur due to various reasons, including:
+      - Damaged or worn-out seals
+      - Loose or corroded power steering hoses
+      - Faulty power steering pump or reservoir
+
+      To identify and fix power steering fluid leaks, follow these steps:
+      1. Check under the vehicle for signs of fluid leaks, especially around the power steering components.
+      2. Inspect the power steering hoses, pump, and reservoir for visible damage or leaks.
+      3. Replace any damaged components and ensure proper tightening of connections.
+
+      Driving with power steering fluid leaks can lead to difficulty steering and potential damage to the power steering system. It's essential to address the issue promptly to ensure safe driving.
+
+      If you notice power steering fluid leaks or experience steering problems, consult a qualified mechanic for diagnosis and repair. They can identify the source of the leak and recommend the necessary repairs or replacements.
+
+      Remember, maintaining proper power steering fluid levels and addressing leaks promptly is crucial for safe and effective vehicle operation. Don't delay in seeking professional help if you suspect power steering fluid leaks.
+
+  utter_brake_noise:
+  - text: |
+      Brake noise, such as squealing or grinding, can indicate various issues, including:
+      - Worn brake pads or shoes
+      - Brake rotor or drum damage
+      - Lack of lubrication in brake components
+      - Foreign objects lodged between brake components
+      
+      To address brake noise, follow these steps:
+      1. Inspect the brake pads, rotors, and drums for wear or damage.
+      2. Lubricate brake components as recommended by the manufacturer.
+      3. Remove any debris or foreign objects from between the brake components.
+      
+      Driving with noisy brakes can compromise braking performance and lead to further damage to brake components. It's essential to address the issue promptly to ensure safe driving.
+      
+      If you experience brake noise, consult a qualified mechanic for inspection and repair. They can identify the cause of the noise and recommend the necessary repairs or replacements.
+      
+      Remember, regular brake maintenance and prompt action are essential for safe driving. Don't ignore brake noise, and seek professional help if needed.
+  
+  utter_soft_spongy_brake_pedal:
+  - text: |
+      A soft or spongy brake pedal can be caused by several factors:
+        - Air in the brake lines
+        - Worn brake pads or shoes
+        - Brake fluid leaks
+        - Faulty brake master cylinder
+      
+       To restore firmness to your brake pedal, follow these steps:
+        1. Check the brake fluid level and condition.
+        2. Bleed the brake system to remove any air bubbles.
+        3. Inspect the brake pads, shoes, and master cylinder for wear or damage.
+      
+       Driving with a soft or spongy brake pedal can compromise braking performance and lead to unsafe driving conditions. It's crucial to address the issue promptly to ensure safe operation of your vehicle.
+      
+       If you experience a soft or spongy brake pedal, consult a qualified mechanic for inspection and repair. They can diagnose the cause of the issue and recommend the appropriate repairs or replacements.
+      
+       Remember, maintaining proper brake function is essential for safe driving. Don't ignore a soft or spongy brake pedal, and seek professional help if needed.
+  
+  utter_transmission_warning_lights:
+  - text: |
+      When the transmission warning light is illuminated on your dashboard, it indicates a potential issue with your vehicle's transmission system. Common reasons for the transmission warning light to come on include:
+        - Low transmission fluid levels
+        - Transmission overheating
+        - Faulty sensors or electrical issues
+        - Mechanical problems with the transmission
+
+       To troubleshoot a transmission warning light, you can try the following steps:
+        1. Check the transmission fluid level and condition.
+        2. Inspect for any signs of leaks or damage to the transmission system.
+        3. If the transmission fluid is low or dirty, refill or replace it as needed.
+        4. Scan the vehicle's onboard diagnostic system (OBD-II) for error codes to identify specific issues.
+
+       Driving with a transmission warning light illuminated can potentially cause further damage to the transmission system and other components of your vehicle. It's essential to address the issue promptly to prevent costly repairs and ensure safe driving.
+
+       If you're unsure about troubleshooting the transmission warning light yourself, it's recommended to consult a qualified mechanic for diagnosis and repair.
+
+  utter_traction_control_issues:
+  - text: |
+      Traction control issues can occur due to various factors:
+        - Faulty wheel speed sensors
+        - Malfunctioning traction control module
+        - Issues with ABS system
+        - Traction control system disabled due to low tire pressure or other factors
+      
+       To diagnose and resolve traction control issues, follow these steps:
+        1. Check the tire pressure and condition.
+        2. Inspect the wheel speed sensors and wiring for damage or corrosion.
+        3. Scan the vehicle's onboard computer for error codes related to the traction control system.
+      
+       Driving with traction control issues can compromise vehicle stability and traction, especially in slippery conditions. It's essential to address the issue promptly to ensure safe driving.
+      
+       If you experience traction control issues, consult a qualified mechanic for diagnosis and repair. They can identify the underlying cause and recommend the appropriate repairs or replacements.
+      
+       Remember, traction control plays a crucial role in vehicle safety, especially in adverse weather conditions. Don't ignore traction control issues, and seek professional help if needed.
+  
+  utter_flat_tire:
+  - text: |
+      If you have a flat tire, follow these steps to handle it safely:
+        1. Pull over to a safe location away from traffic, ideally on a flat and stable surface.
+        2. Turn on hazard lights and apply the parking brake to ensure the vehicle remains stationary.
+        3. Retrieve the necessary tools from your vehicle's toolkit, including a spare tire, jack, and lug wrench.
+        4. Place wheel chocks or blocks behind the tires opposite the flat tire to prevent the vehicle from rolling.
+        5. Loosen the lug nuts on the flat tire with the lug wrench but do not remove them completely yet.
+        6. Position the jack under the vehicle's frame near the flat tire's location and lift the vehicle until the flat tire is off the ground.
+        7. Fully remove the lug nuts and carefully take off the flat tire from the wheel hub.
+        8. Align the spare tire with the wheel hub and mount it onto the wheel studs.
+        9. Hand-tighten the lug nuts onto the wheel studs in a star pattern to ensure even tightening.
+        10. Lower the vehicle slowly using the jack and remove the jack from under the vehicle.
+        11. Tighten the lug nuts further using the lug wrench in a star pattern, ensuring they are securely fastened.
+        12. Store the flat tire, jack, and lug wrench back in your vehicle and double-check that everything is secure.
+        13. Check the spare tire's pressure using a tire pressure gauge and adjust if necessary.
+        14. Drive cautiously to the nearest service center to inspect the flat tire and have it repaired or replaced.
+
+       Remember, practicing changing a tire before an emergency can help you feel more confident and prepared when faced with a real situation. Safety should always be your priority, so if you're unsure about changing a tire or encounter any difficulties, don't hesitate to call for roadside assistance.
+
+  utter_battery_draining_quickly:
+  - text: |
+      Rapid battery drain in vehicles can be caused by various factors, including:
+        - Faulty charging system (e.g., alternator or voltage regulator)
+        - Parasitic electrical drains (e.g., malfunctioning components)
+        - Aging battery or poor battery health
+        - Leaving lights or accessories on when the engine is off
+
+       To diagnose and resolve battery drainage issues, we recommend the following steps:
+        1. Check for any lights or accessories left on when the vehicle is parked.
+        2. Test the battery voltage and charging system using a multimeter.
+        3. Inspect for any signs of corrosion or loose connections on the battery terminals.
+        4. If necessary, have the battery and charging system tested by a professional mechanic.
+
+       Addressing excessive battery drainage promptly can help prevent unexpected breakdowns and extend the life of your vehicle's battery.
+
+  utter_air_filter_replacement:
+  - text: |
+      Regular replacement of your air filter is essential for maintaining optimal engine performance and fuel efficiency. Signs that indicate you may need to replace your air filter include:
+        - Reduced engine performance or acceleration
+        - Poor fuel economy
+        - Black, sooty deposits on the air filter
+        - Visible dirt or debris on the filter element
+
+      To ensure your vehicle's engine operates smoothly, we recommend checking and replacing the air filter according to the manufacturer's recommendations, typically every 12,000 to 15,000 miles or as specified in your vehicle's manual.
+
+  utter_low_engine_oil_warning:
+  - text: |
+      Uh oh! It sounds like your car's low engine oil warning light is on. This means the oil level is below the recommended amount, which can be bad news for your engine. Don't worry, I can help you check it and top it up if needed.
+
+      Steps:
+
+      1. Find a safe spot and turn off your engine. Let it cool down for a few minutes.
+      2. Locate the oil dipstick. It's usually a yellow or orange loop near the engine. Consult your car's manual if you're unsure.
+      3. Pull out the dipstick, wipe it clean with a rag, and reinsert it fully. Then pull it out again to check the oil level. There should be oil between the two marked sections (usually MIN and MAX).
+      4. If the oil level is below the MIN mark, you'll need to add some. Check your car's manual for the recommended oil type and amount.
+
+      Important Tips:
+
+      - Don't overfill! Wipe the dipstick again and check the level after adding oil.
+      - Consider getting an oil change soon if your oil level was very low or you haven't had one in a while.
+
+      Additional Information:
+
+      - Regularly checking your engine oil is crucial for your car's health. It helps prevent wear and tear on essential components.
+  
+  utter_burning_smell:
+  - text: |
+      A burning smell coming from your car can indicate various issues, including:
+        - Overheated engine components (e.g., leaking fluids)
+        - Electrical malfunctions or short circuits
+        - Worn or overheated brakes
+        - Burning oil or coolant leaks
+        - Damaged or melting insulation
+
+       If you notice a burning smell:
+        - Safely pull over and turn off the engine.
+        - Allow the vehicle to cool down and investigate the source of the odor. Look for any signs of leaks, smoke, or damage under the hood and around the vehicle.
+        - If you cannot identify the source of the smell or if it persists, do not continue driving. Have your vehicle inspected by a qualified mechanic as soon as possible to prevent potential damage or safety hazards.
+
+  utter_air_conditioning_issues:
+  - text: |
+      When your car's air conditioning system is not functioning properly, it may be due to various reasons, such as:
+        - Low refrigerant levels
+        - Clogged or dirty air filters
+        - Faulty compressor or compressor clutch
+        - Leaks in the AC system
+        - Electrical issues or sensor malfunctions
+
+      To troubleshoot air conditioning issues:
+        1. Start by checking the refrigerant level and ensuring it's within the recommended range.
+        2. Inspect the air filters and clean or replace them if necessary to ensure proper airflow.
+        3. Check for any visible leaks in the AC system and repair them as needed.
+        4. Test the compressor and compressor clutch for proper operation.
+        5. If you notice foul odors coming from the AC vents, it could indicate mold or bacteria buildup. Consider using an AC cleaning or disinfecting treatment to eliminate the odor.
+
+      If you're unable to diagnose or resolve the air conditioning problem on your own, it's best to seek assistance from a qualified mechanic or HVAC technician.
+  
+  utter_car_making_noise:
+  - text: |
+      if you have Car noises can be concerning, but don't worry, I can help you understand what might be going on. Different noises can point to different problems:
+
+      - Grinding or squealing: This could be worn brake pads or rotors. It's important to get your brakes checked as soon as possible for safety.
+      - Rattling or clunking: This could be loose parts in your engine, suspension, or other areas. It's best to have a mechanic take a look to avoid further issues.
+      - Knocking or clicking: This might be related to your suspension or steering components. These noises shouldn't be ignored, so get your car checked by a professional.
+      - Whining or humming: These sounds could indicate engine or transmission problems. It's wise to have a mechanic diagnose this as soon as possible.
+
+      Here are some tips if you hear a strange noise:
+
+      1. Pay attention to the details: When does the noise happen (braking, turning, etc.)? Are there any other symptoms (vibrations, warning lights)?
+      2. Pull over safely: If you can, find a safe spot to stop and check for any obvious issues like leaks or loose parts.
+      3. See a mechanic: If you can't identify the source or the noise persists, don't drive your car. Schedule an appointment with a mechanic to get a proper diagnosis.
+
+      Remember, early detection is key! By addressing car noises promptly, you can avoid more serious problems down the road.
+
+  utter_car_not_starting:
+  - text: |
+      That's frustrating! There are several reasons why your car might not be starting. Here are some common culprits:
+
+      - Dead battery: This is a frequent cause. Your lights might be dim or flickering before the no-start. If you suspect a dead battery, you can try jump-starting your car.
+      - Starter motor issues: If you hear a clicking noise when trying to start, it could be the starter motor not engaging the engine.
+      - Fuel problems: An empty tank is an easy fix, but a clogged fuel filter might require professional attention.
+      - Ignition system problems: Faulty spark plugs or an ignition switch malfunction can prevent your car from starting.
+
+      Here's what you can try:
+
+      1. Check the battery: Look for corrosion or loose connections. If your headlights seem dim, a jump-start might help.
+      2. Listen for clues: Does the engine crank but not turn over? Clicking sounds might indicate starter issues.
+      3. Basics first: Make sure your car is in park (or neutral for manuals) and that you have enough gas!
+
+      If these steps don't work, or if you're unsure about the cause, it's best to have a mechanic diagnose the problem. They can pinpoint the exact issue and get your car back on the road.
+
+      Tip: Regularly scheduled maintenance can help prevent these issues from happening in the first place!
+  
+  
+  utter_Electrical_Problems_Speakers:
+  - text: |
+        Uh oh, it sounds like your car speakers aren't working quite right! But don't worry, there are a few things we can try to get them back in tune.
+
+        Here's some troubleshooting we can do together:
+
+        1. Double-check the audio settings: Make sure the volume is up and not muted. Also, check the balance and fade to see if the sound is directed to the speakers you expect.
+
+        2. Try different music sources: Play audio from the radio, CD, Bluetooth, or AUX to see if the issue happens everywhere. This helps narrow down if it's the source or the speakers themselves.
+
+        3. Inspect the speaker connections: Look for loose or damaged wires at the speaker connections. A bad connection can cause no sound or sound cuts in and out.
+
+        4. Look for any speaker damage: Check for rips in the speaker cones, water damage, or blown speakers. Physical damage can make them sound bad or not work at all.
+
+        Bonus tip: If your car has a removable speaker panel, you might be able to take a peek at the speakers themselves! 
+
+        5. Test individual speakers (if possible): If you can safely access the speakers, try connecting each one directly to a known-good audio source. This can help identify a faulty speaker.
+
+        6. Check the audio system fuse: Some cars have a fuse for the audio system. Look in your owner's manual to find it and see if it's blown.
+
+        If you go through these steps and the speakers are still acting up, it might be best to visit a car audio technician. They have the tools and expertise to diagnose and fix any electrical problems your speakers might have.
+
+        Remember, healthy speakers make for a more enjoyable ride! Let me know if you have any other questions or need further assistance.
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

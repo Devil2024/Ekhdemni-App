@@ -1,0 +1,952 @@
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3542562,
+                    "lng": 27.2414777
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3556043802915,
+                        "lng": 27.24282053029151
+                    },
+                    "southwest": {
+                        "lat": 31.3529064197085,
+                        "lng": 27.2401225697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Alex-Gsm \u0645\u062d\u0645\u062f \u0635\u0627\u0644\u062d \u0644\u0635\u064a\u0627\u0646\u0629 \u0627\u0644\u0645\u062d\u0645\u0648\u0644",
+            "place_id": "ChIJUVUFTMr-YRQRuit8rXr3FIE",
+            "rating": 5,
+            "reference": "ChIJUVUFTMr-YRQRuit8rXr3FIE",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "963R+PH5, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3533739,
+                    "lng": 27.2417586
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3547656802915,
+                        "lng": 27.24309623029151
+                    },
+                    "southwest": {
+                        "lat": 31.3520677197085,
+                        "lng": 27.2403982697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Terrace Computer Services",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 264,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102121358339803166515\">M Eltras</a>"
+                    ],
+                    "photo_reference": "ATplDJYMZLt3enMpNGubX8qwaTbk8yPHw2NfEXi8w5XnuFpUhPdgSXj-CAHAANcovmz3XhOXrpvWjeTYrxAVMLoeiMpZtlub_goU3L_TX0m24g04NAb0ol3Lzvct9xzD008M5NZK_Q-txkVcb5GD0Kr5kOuTm971A6M7t_MEfUThek7qnUHw",
+                    "width": 556
+                }
+            ],
+            "place_id": "ChIJWXEGV8r-YRQRlY9fVc2ssrk",
+            "plus_code": {
+                "global_code": "8G39963R+8P"
+            },
+            "rating": 5,
+            "reference": "ChIJWXEGV8r-YRQRlY9fVc2ssrk",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 3,
+            "vicinity": "Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3536735,
+                    "lng": 27.2417215
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3550639302915,
+                        "lng": 27.2430603802915
+                    },
+                    "southwest": {
+                        "lat": 31.3523659697085,
+                        "lng": 27.2403624197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0627\u0628\u0648\u0634\u0627\u062f\u064a \u0628\u064a\u0639 \u0648\u0634\u0631\u0627\u0621 \u0623\u062c\u0647\u0632\u0647 \u0625\u0633\u062a\u0639\u0645\u0627\u0644",
+            "photos": [
+                {
+                    "height": 1280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105432394233827855357\">\u0627\u0628\u0648\u0634\u0627\u062f\u064a \u0628\u064a\u0639 \u0648\u0634\u0631\u0627\u0621 \u0623\u062c\u0647\u0632\u0647 \u0625\u0633\u062a\u0639\u0645\u0627\u0644</a>"
+                    ],
+                    "photo_reference": "ATplDJZgyT_M_ujePky8nBn2myCXM3mpAV7fbxoZRl1MahiRAAF7xcyivCHQbVfINA3dn7Ug_WsYntZkkeFsM-2ZHl-WnO1ekmc0lv1Vsh4kw7bWD2FQImx7nvmPnf5c9emYroAko5uZsMTb-OtqH1bl2KeXmDdJEY5zIPtAPWIIKzHzQPPQ",
+                    "width": 720
+                }
+            ],
+            "place_id": "ChIJvcviUMr-YRQR2Hm2DS2sJHs",
+            "plus_code": {
+                "global_code": "8G39963R+FM"
+            },
+            "rating": 4,
+            "reference": "ChIJvcviUMr-YRQR2Hm2DS2sJHs",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "\u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3542375,
+                    "lng": 27.2416388
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3555783302915,
+                        "lng": 27.2429258802915
+                    },
+                    "southwest": {
+                        "lat": 31.3528803697085,
+                        "lng": 27.2402279197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u062d\u0633\u0627\u0646 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u0648\u0627\u0644\u0645\u062d\u0645\u0648\u0644",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105039498832681285015\">\u0627\u0644\u0646\u0645\u0631 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u0648\u0627\u0644\u0645\u062d\u0645\u0648\u0644</a>"
+                    ],
+                    "photo_reference": "ATplDJZjTlrZa6sEX_MQaJSnUZ8sWbBbXrShAPFBenN_cYNcpWTCT0Gjk0M1XBPMtdFEiwUD4h_6yfKkzSFlTwGe-3G2h0X4b3NrPOhf6aUNgW7bbKL1zf7hwPp-8rMg0AEZLdVNzrREZe9tx4oajS0KyLkowhHAw3KR1Uo-EGXmSQT3f-RI",
+                    "width": 4000
+                }
+            ],
+            "place_id": "ChIJz3LYA1D_YRQRKTLCPoJqAq8",
+            "plus_code": {
+                "global_code": "8G39963R+MM"
+            },
+            "rating": 5,
+            "reference": "ChIJz3LYA1D_YRQRKTLCPoJqAq8",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "\u0643\u0627\u0641\u064a\u062a\u0631\u064a\u0627 \u0627\u0644\u0623\u0648\u0628\u0631\u062c, \u0634\u0627\u0631\u0639 \u0627\u0644\u062a\u062d\u0631\u064a\u0631 \u0645\u0646 \u0634\u0627\u0631\u0639 \u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0629 \u0628\u062c\u0648\u0627\u0631"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3500266,
+                    "lng": 27.2404912
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35144938029149,
+                        "lng": 27.2418198802915
+                    },
+                    "southwest": {
+                        "lat": 31.3487514197085,
+                        "lng": 27.23912191970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0645\u062d\u0644 \u0627\u0644\u0645\u0639\u0627\u0630 \u0644\u0644\u0645\u062d\u0645\u0648\u0644",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 348,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111983635037467640947\">ahmed seweef</a>"
+                    ],
+                    "photo_reference": "ATplDJYhuSgkJDRRvqNGNKCmBseOOW7Jfep1hvlQG-G7Za-f0H60eQ-4Yw0fWZuUjB7CF-nvheoIAuLpR-bwvZ008X8a6RNOWrFC1c0Fq-k0o2obnHkdn-i3p-GVA1DPJe2JE7jbPChz0SW-9o8J61aawk5PyJ5w-9EUBwPLl8pejhUdO739",
+                    "width": 348
+                }
+            ],
+            "place_id": "ChIJjZTa2jT5YRQRFGnRhbbiyco",
+            "plus_code": {
+                "global_code": "8G39962R+25"
+            },
+            "rating": 3.9,
+            "reference": "ChIJjZTa2jT5YRQRFGnRhbbiyco",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 14,
+            "vicinity": "Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3544099,
+                    "lng": 27.2416592
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35574913029149,
+                        "lng": 27.2430105302915
+                    },
+                    "southwest": {
+                        "lat": 31.35305116970849,
+                        "lng": 27.2403125697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Mo._.story",
+            "photos": [
+                {
+                    "height": 1155,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103075989772383330708\">Mo._.story</a>"
+                    ],
+                    "photo_reference": "ATplDJYZxvHPJ4z3UHoVheP3Ww9IC4Ds2HpvKkqG7CGOx1AUG9g8mzLahuufMuYBkYL5UhL4ig_rvDkLJcy6FcDBaGY_2DvlTAOeA_GusFcKsdouNpqDj2zDCIvvkTCU4MTbkqCawfgCbw5DeFUIs62hju2Ipp_Mv7eTJA1DjdocBoNyLBee",
+                    "width": 1170
+                }
+            ],
+            "place_id": "ChIJn-fk2Db_YRQRyiSmWUQAF6I",
+            "plus_code": {
+                "global_code": "8G39963R+QM"
+            },
+            "reference": "ChIJn-fk2Db_YRQRyiSmWUQAF6I",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "vicinity": "\u0627\u0645\u0627\u0645 \u0645\u0633\u062c\u062f \u0627\u0644\u0645\u0627\u0644\u0643, El-Tahrir"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.35388409999999,
+                    "lng": 27.241912
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3551897802915,
+                        "lng": 27.2432715302915
+                    },
+                    "southwest": {
+                        "lat": 31.3524918197085,
+                        "lng": 27.2405735697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0631\u0627\u064a\u0647 \u0628\u0627\u0648\u0631 \u0644\u0627\u0643\u0633\u0633\u0648\u0627\u0631\u0627\u062a \u0627\u0644\u0645\u062d\u0645\u0648\u0644 \u0628\u062c\u0645\u0644\u0647 \u0627\u0644\u062c\u0645\u0644\u0647",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3840,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102770518435981883384\">waleed atta</a>"
+                    ],
+                    "photo_reference": "ATplDJYiCRSuvw0RWIcKa825Zz4YQ8Pa-e8iFM9LYHc98FGmmaJIdy9LNxevSyvPapG2WJK9Ow3AF5ulyxUc8QQ_hCE3XW-4iV4kaGoPZ5BJwqVDSynxG06sxvSP_1TIQRorzGXQ-3ygoR2T5yjkMPvbVK1XVLc52_ItroR4CaEfLmlSR0kH",
+                    "width": 2160
+                }
+            ],
+            "place_id": "ChIJdYWiWsr-YRQREEot60uOntQ",
+            "rating": 4,
+            "reference": "ChIJdYWiWsr-YRQREEot60uOntQ",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "963R+HQ3, Goal Gamael Al Baharai, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3540578,
+                    "lng": 27.2419145
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35538783029149,
+                        "lng": 27.2432675802915
+                    },
+                    "southwest": {
+                        "lat": 31.3526898697085,
+                        "lng": 27.24056961970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0627\u0644\u0648\u0643\u064a\u0644 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 1080,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110797070052559469263\">Mostafa Sabry</a>"
+                    ],
+                    "photo_reference": "ATplDJZIUNrUdZmHoU3koxgxR0tmkePtF8owZzO0Ww2PrV-ikGfxGJ13PqiVnMj0tW-Lbygg4p4iGlw0_0bq1N5NyTYqhpeFU1kbukteGnumHwrbjS9CKmuHm6QYVwP4QROB5SxTdA4l-jkHLmU85oAbjWkWBK_BVh3E_JV-WsM57Za2ZxiF",
+                    "width": 1920
+                }
+            ],
+            "place_id": "ChIJ-zgeqV7_YRQRUltV2UYVDg0",
+            "plus_code": {
+                "global_code": "8G39963R+JQ"
+            },
+            "rating": 5,
+            "reference": "ChIJ-zgeqV7_YRQRUltV2UYVDg0",
+            "scope": "GOOGLE",
+            "types": [
+                "shopping_mall",
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "\u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c, \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3540849,
+                    "lng": 27.2419083
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3553953802915,
+                        "lng": 27.2432656302915
+                    },
+                    "southwest": {
+                        "lat": 31.3526974197085,
+                        "lng": 27.24056766970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0627\u0644\u0647\u0646\u062f\u0633\u064a\u0629 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 - \u0645\u0637\u0631\u0648\u062d",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102559024455483760342\">\u0627\u0644\u0647\u0646\u062f\u0633\u064a\u0629 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631 - \u0645\u0637\u0631\u0648\u062d</a>"
+                    ],
+                    "photo_reference": "ATplDJaMfPmvrpYmnoiP8NMMZZfAdTrp55xSi297lMK7La0LpOd_QaRC3weT_bPFKoXjjm3WdpzwGz9YiN-dWgvpJH2vPgKvxO0oxBJQ6aMIx47pxNdi_EBroGzIudDm8w8-iGoSgPXCV_rEw0B3P06ZX31KHRJ9ofOhFwyzU34rs_Bqix54",
+                    "width": 720
+                }
+            ],
+            "place_id": "ChIJR0QT8v3_YRQRwhF2ewo4f-0",
+            "plus_code": {
+                "global_code": "8G39963R+JQ"
+            },
+            "rating": 5,
+            "reference": "ChIJR0QT8v3_YRQRwhF2ewo4f-0",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "El-Tahrir, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3498792,
+                    "lng": 27.240608
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3512414302915,
+                        "lng": 27.24203088029151
+                    },
+                    "southwest": {
+                        "lat": 31.3485434697085,
+                        "lng": 27.2393329197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0645\u0624\u0633\u0633\u0629 \u0627\u0644\u0648\u0633\u064a\u0637 \u0644\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0623\u0645\u0646\u064a\u0629",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 864,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/109612227508176679022\">eldelar elmasre</a>"
+                    ],
+                    "photo_reference": "ATplDJZ8-LRNJ0psk9-MQEmvR0LhYvvXfV2kvPq6jenFcr6GS37nwixyksXKY8gW3f68Q17yGdtTgJUiReHSNmGQrFV4Ob-rwzccKHnAzStF2iRwiz5aFHcNdMt9_oriXtgTkN92cc_BG2w6Xc5Lp5xwjY3uvqdHDcmNzm_FtqyNDjbTHsiR",
+                    "width": 1152
+                }
+            ],
+            "place_id": "ChIJA-Mu3RP5YRQRjPuA8tpYlcY",
+            "plus_code": {
+                "global_code": "8G3986XR+X6"
+            },
+            "reference": "ChIJA-Mu3RP5YRQRjPuA8tpYlcY",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "vicinity": "Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3534895,
+                    "lng": 27.2422428
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35483443029151,
+                        "lng": 27.2435589802915
+                    },
+                    "southwest": {
+                        "lat": 31.35213646970851,
+                        "lng": 27.2408610197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0627\u0644\u0647\u0644\u0627\u0644\u064a \u0633\u062a\u0648\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 800,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113450158779446807123\">\u0627\u0644\u0647\u0644\u0627\u0644\u064a \u0633\u062a\u0648\u0631</a>"
+                    ],
+                    "photo_reference": "ATplDJajG6lAieBgp20sD2JXjM39nxG-VNdZ2Tm74TxQl_8d51lRCJ6I1uF1EruHjoSrPF66rpDSDgZUXYD-5IDhh6Z1u70G2UI48xUqsTKX_VVLxBBGv6GQG0Dld90LqnK6AxrL3ICN8N3vizYUWVNT-_qgGwRTi0sOQKx4kTW6xzyUDmbD",
+                    "width": 810
+                }
+            ],
+            "place_id": "ChIJs42uNuX_YRQRkJNsdmEKEJs",
+            "plus_code": {
+                "global_code": "8G39963R+9V"
+            },
+            "rating": 5,
+            "reference": "ChIJs42uNuX_YRQRkJNsdmEKEJs",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "Goal Gamael Al Baharai, \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c \u0645\u0637\u0631\u0648\u062d\u060c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3524982,
+                    "lng": 27.2425556
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3538341302915,
+                        "lng": 27.2437982302915
+                    },
+                    "southwest": {
+                        "lat": 31.3511361697085,
+                        "lng": 27.2411002697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Pixel \u0644\u0644\u0627\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645\u0646\u064a\u0629",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4624,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/101838860137234614008\">Pixel \u0644\u0644\u0627\u0646\u0638\u0645\u0629 \u0627\u0644\u0627\u0645\u0646\u064a\u0629</a>"
+                    ],
+                    "photo_reference": "ATplDJbF7Hh6USFjrorCVOHhfCuvimcikfxONIJtUHuey0ObtLhFC4mxS0lNpAq5iKmlmL-Aw1JRnRCvIb8OJ3F9JtOQ4u2bKe4bKi59JBrMaKIyMQc6a6vMc26j6bA3_K9lyI0MDmHxKplmh8LCxvzd8Lj39XmZYye81jB_S99yONU64dG_",
+                    "width": 3468
+                }
+            ],
+            "place_id": "ChIJ30vB8sr-YRQRuUQFSSNaxck",
+            "plus_code": {
+                "global_code": "8G39962V+X2"
+            },
+            "rating": 5,
+            "reference": "ChIJ30vB8sr-YRQRuUQFSSNaxck",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 2,
+            "vicinity": "\u0634"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3525946,
+                    "lng": 27.2427559
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3538180802915,
+                        "lng": 27.2441342802915
+                    },
+                    "southwest": {
+                        "lat": 31.3511201197085,
+                        "lng": 27.24143631970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u062d\u0645\u0627\u062f\u0647 \u0643\u0645\u0628\u064a\u0648\u062a\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 508,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116424515005666831194\">\u062d\u0645\u0627\u062f\u0647 \u0643\u0645\u0628\u064a\u0648\u062a\u0631</a>"
+                    ],
+                    "photo_reference": "ATplDJa44vDZwrH7xHQlAqeIr6heomS1QrA8mleNZTGiqxhz_KbJKH9x8jY38AkEVALrKwLcK-Gz45kslYAnl8C23RDKQn1AQpOEW0hiYDY5jLzlZcO4mM7LwoMcNLQyed6IkDYWQHq8zk1qaBOtWIsCbGoa0hmveguS7vEmUM0zD6YhqaVz",
+                    "width": 603
+                }
+            ],
+            "place_id": "ChIJU6ln29X_YRQRUjMH3FjSdwk",
+            "plus_code": {
+                "global_code": "8G39963V+24"
+            },
+            "rating": 4.3,
+            "reference": "ChIJU6ln29X_YRQRUjMH3FjSdwk",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 6,
+            "vicinity": "\u062d\u0645\u0627\u062f\u0647 \u0643\u0645\u0628\u064a\u0648\u062a\u0631 \u0627\u0645\u0627\u0645 \u0645\u0633\u062c\u062f \u0627\u0644\u0641\u062a\u062d \u0628\u062c\u0648\u0627\u0631 \u0628\u0646\u0643 \u0627\u0644\u0642\u0627\u0647\u0631\u0629 _\u0645\u0637\u0631\u0648\u062d"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3538097,
+                    "lng": 27.2427429
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3552255302915,
+                        "lng": 27.2440743302915
+                    },
+                    "southwest": {
+                        "lat": 31.3525275697085,
+                        "lng": 27.2413763697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Muslim Center for Computer Maintenance and mobile",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ1V_jWsr-YRQRnY5ZzRWQFPo",
+            "plus_code": {
+                "global_code": "8G39963V+G3"
+            },
+            "rating": 4.3,
+            "reference": "ChIJ1V_jWsr-YRQRnY5ZzRWQFPo",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 15,
+            "vicinity": "\u0634\u0627\u0631\u0639 \u0627\u0633\u0643\u0646\u062f\u0631\u064a\u0647, \u062e\u0644\u0641 \u0645\u0648\u0644, \u0628\u062f\u0631, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3545758,
+                    "lng": 27.2424979
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3559259802915,
+                        "lng": 27.2438465802915
+                    },
+                    "southwest": {
+                        "lat": 31.3532280197085,
+                        "lng": 27.2411486197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0639\u0627\u0645\u0631 \u0633\u062a\u0648\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113036959959389106841\">Amro Ali</a>"
+                    ],
+                    "photo_reference": "ATplDJatea-SqJgUsOQQDCSOHwdKjTXclmjVszgT85GC4rDKRV0yGwRxGGsWOiw9lxBFbkJ6ytxUjxmgovMnQkqOc8AHfsRQutJqAi-BWpnBeBKtm3Xp0Ck4A4CHTtbpdfC4kP368kCu8eAW90_g7tkdEXU0I3tEzq4zAZYKWaQxlP7AOsMi",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJR7WI6DP_YRQRMcbK5R9eIr4",
+            "plus_code": {
+                "global_code": "8G39963R+RX"
+            },
+            "reference": "ChIJR7WI6DP_YRQRMcbK5R9eIr4",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "vicinity": "\u0627\u0644\u062a\u062d\u0631\u064a\u0631\u060c \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3497209,
+                    "lng": 27.2415818
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35107873029149,
+                        "lng": 27.2429284802915
+                    },
+                    "southwest": {
+                        "lat": 31.3483807697085,
+                        "lng": 27.2402305197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0634\u0631\u0643\u0629 \u0643\u0646\u062a\u0631\u0648\u0644 \u0644\u0643\u0627\u0645\u064a\u0631\u0627\u062a \u0627\u0644\u0645\u0631\u0627\u0642\u0628\u0629 \u0648 \u0627\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0623\u0645\u0646\u064a\u0629",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 557,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104965246711187916764\">\u0634\u0631\u0643\u0629 \u0643\u0646\u062a\u0631\u0648\u0644 \u0644\u0643\u0627\u0645\u064a\u0631\u0627\u062a \u0627\u0644\u0645\u0631\u0627\u0642\u0628\u0629 \u0648 \u0627\u0644\u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0623\u0645\u0646\u064a\u0629</a>"
+                    ],
+                    "photo_reference": "ATplDJZZ_UafHCrkFzFfFXzTsRYSjG1MvP3exic4iXBZzwbs-HqPMJTeQZopGgXiJgKbWzO18zI42RgfhSefZ5B8gIhDnTbtcBv3hzBim03tO-tRuPyLkCc8qLqYxj1pTvoYnVnTfXJB2o0IEAMPQ6ZdLp2FrWkLZcfOTS9Jacw5xhE6kCe7",
+                    "width": 991
+                }
+            ],
+            "place_id": "ChIJGyYaNYL5YRQRJx8kQPs8Db0",
+            "plus_code": {
+                "global_code": "8G3986XR+VJ"
+            },
+            "rating": 5,
+            "reference": "ChIJGyYaNYL5YRQRJx8kQPs8Db0",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "\u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c \u0645\u0637\u0631\u0648\u062d"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3538124,
+                    "lng": 27.24325039999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35512793029149,
+                        "lng": 27.2446088302915
+                    },
+                    "southwest": {
+                        "lat": 31.3524299697085,
+                        "lng": 27.24191086970849
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0631\u0646\u064a\u0646 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0645\u062d\u0645\u0648\u0644 \u0648\u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ2SY4-I__YRQR5agDBgEpg3Y",
+            "rating": 5,
+            "reference": "ChIJ2SY4-I__YRQR5agDBgEpg3Y",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 1,
+            "vicinity": "963V+G8C, \u0632\u0627\u0647\u0631 \u062c\u0644\u0627\u0644\u060c \u0642\u0633\u0645 \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3542951,
+                    "lng": 27.243168
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3556316802915,
+                        "lng": 27.2444541802915
+                    },
+                    "southwest": {
+                        "lat": 31.3529337197085,
+                        "lng": 27.2417562197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0632\u0645\u0632\u0645 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0643\u0645\u0628\u064a\u0648\u062a\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJBQuWR8r-YRQRSYmk18InY6s",
+            "plus_code": {
+                "global_code": "8G39963V+P7"
+            },
+            "reference": "ChIJBQuWR8r-YRQRSYmk18InY6s",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "vicinity": "El-Tahrir, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3545646,
+                    "lng": 27.243084
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.35594798029149,
+                        "lng": 27.2444240802915
+                    },
+                    "southwest": {
+                        "lat": 31.3532500197085,
+                        "lng": 27.2417261197085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "Apple world",
+            "photos": [
+                {
+                    "height": 5568,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/100955131797376012210\">haitham peno</a>"
+                    ],
+                    "photo_reference": "ATplDJZtTZ5RwqOyzFy-9isHW4gENGVQ2GN2lOArORjmd_Ne_bpCLWwfFfL5wUgPhvd1ePyspiVBFaKeEq2OKzPsqW_pVz6D1Ce9qJgx0OaZK21b1XcuYGl8msCD6uogiekEQWSG2tbJ05MhDpBsJTQJcigImfhDBGJ-QA2kqkScxnR1YWfT",
+                    "width": 3712
+                }
+            ],
+            "place_id": "ChIJH50H2eD_YRQRK25YCCIYnpU",
+            "rating": 4.5,
+            "reference": "ChIJH50H2eD_YRQRK25YCCIYnpU",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 4,
+            "vicinity": "963V+R6G, \u0645\u0631\u0633\u0649 \u0645\u0637\u0631\u0648\u062d\u060c, Mersa Matruh"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 31.3491523,
+                    "lng": 27.2416503
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 31.3505058802915,
+                        "lng": 27.2430246302915
+                    },
+                    "southwest": {
+                        "lat": 31.3478079197085,
+                        "lng": 27.2403266697085
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+            "icon_background_color": "#4B96F3",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+            "name": "\u0641\u0631\u0639\u0627\u0635 \u0644\u062e\u062f\u0645\u0627\u062a \u0627\u0644\u0645\u062d\u0645\u0648\u0644 \u0648 \u0627\u0644\u0643\u0648\u0645\u0628\u0628\u0648\u062a\u0631",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1152,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103028399574899334952\">Mahmod Abdelghni</a>"
+                    ],
+                    "photo_reference": "ATplDJYjDSImcWat06IBDdtg_mPewdbU0HuOixYfTjz6yAoGid305zqp-o_eyNbdg3UIl78LiyyyTLZIkI9JD3PqzGdgbjNkMx50DC_ffxl0pQE8bPDPn-b1O4Q6q3o4abFaGSluedsbXelr5x5o7pkUl0fXRvrc6KKG1pbZXCXXmo2qBEYj",
+                    "width": 864
+                }
+            ],
+            "place_id": "ChIJJQrjGDX5YRQRTmLWccaeqT4",
+            "rating": 4,
+            "reference": "ChIJJQrjGDX5YRQRTmLWccaeqT4",
+            "scope": "GOOGLE",
+            "types": [
+                "electronics_store",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 5,
+            "vicinity": "86XR+MM6, \u0634\u0627\u0631\u0639 \u0625\u0633\u0643\u0646\u062f\u0631\u064a\u0629, Mersa Matruh"
+        }
+    ],
+    "status": "OK"
+}
